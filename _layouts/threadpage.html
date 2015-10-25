@@ -16,7 +16,6 @@
     <section class="page-header">
       <h1 class="project-name">Adam Dicker the Con Artist</h1>
       <h2 class="project-tagline">Is Adam Dicker a criminal? You decide.</h2>
-      <div><input type="text" class="st-default-search-input" placeholder="Search"></div>
       <div>{% if page.pagenum > 1 %}<a href="pages/{{ page.pagenum | minus: 1 }}.html">&lt;- Previous Page</a>{% endif %} {% if page.pagenum > 1 and page.pagenum < site.pagecount %}|{% endif %} {% if page.pagenum < site.pagecount %}<a href="pages/{{ page.pagenum | plus: 1 }}.html">Next Page -&gt;</a>{% endif %}</div>
     </section>
 
