@@ -61,9 +61,10 @@ a {
   .page-header a {
     color: white; }
   .page-header input[type="text"] {
-    background-color: rgba(255, 255, 255, 0.5); }
-  .page-header input[type="text"]:active, .page-header input[type="text"]:hover {
-    background-color: rgba(255, 255, 255, 0.8); }
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black; }
+  .page-header input[type="text"]:focus, .page-header input[type="text"]:hover {
+    background-color: rgba(255, 255, 255, 0.6); }
 
 @media screen and (min-width: 64em) {
   .page-header {
