@@ -33,10 +33,10 @@ ol.threadpage {
   .messageUserInfo dl {
     margin: 0;
     padding: 0; }
-    .messageUserInfo dt {
+    .messageUserInfo dl dt {
       font-weight: normal;
       display: inline-block; }
-    .messageUserInfo dd {
+    .messageUserInfo dl dd {
       display: inline-block;
       margin: 0 0 0 0.2em; }
       
@@ -56,3 +56,6 @@ ol.threadpage {
   padding: 0;
   color: inherit;
   border-left: none 0; }
+
+.page-links {
+  text-align: center; }
