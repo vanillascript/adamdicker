@@ -39,3 +39,8 @@ ol.threadpage {
 
 .messageInfo {
   padding: 0.7rem; }
+
+.messageContent article > blockquote {
+  padding: 0 0 1rem;
+  color: inherit;
+  border-left: none 0; }
