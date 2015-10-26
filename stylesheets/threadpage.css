@@ -1,0 +1,5 @@
+ol.threadpage, ol.threadpage > li {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
