@@ -8,10 +8,30 @@ ol.threadpage {
   padding: 0.7rem 0;
   list-style: none; }
   .message + .message {
-    border-bottom: solid 0.3rem #819198; }
+    border-bottom: solid 0.3rem #dce6f0; }
     
 .messageUserInfo {
   float: left;
-  background-color: #819198;
+  background-color: #dce6f0;
   margin: -0.7rem 0.7rem -0.7rem 0;
   padding: 0.7rem; }
+  .messageUserInfo h3 {
+    font-size: 1em;
+    color: inherit;
+    margin: 0.1rem 0;
+    padding: 0; }
+    .messageUserInfo h3 * {
+      font-size: inherit;
+      font-weight: inherit;
+      font-style: inherit;
+      display: block; }
+    .messageUserInfo h3 > a {
+      font-weight: bold; }
+  .messageUserInfo dl {
+    margin: 0;
+    padding: 0; }
+    .messageUserInfo dt {
+      display: inline-block; }
+    .messageUserInfo dd {
+      display: inline-block;
+      margin-left: 0.2em; }
