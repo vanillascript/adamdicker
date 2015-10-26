@@ -1,5 +1,17 @@
-ol.threadpage, ol.threadpage > li {
+ol.threadpage {
   list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-}
+  margin: 0;
+  padding: 0; }
+
+.message {
+  margin: 0.7rem 0;
+  padding: 0.7rem 0;
+  list-style: none; }
+  .message + .message {
+    border-bottom: solid 0.3rem #819198; }
+    
+.messageUserInfo {
+  float: left;
+  background-color: #819198;
+  margin: -0.7rem 0.7rem -0.7rem 0;
+  padding: 0.7rem; }
