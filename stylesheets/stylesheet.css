@@ -34,11 +34,11 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.3); }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 84em) {
   .btn {
     padding: 0.75rem 1rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 84em) {
   .btn {
     padding: 0.6rem 0.9rem;
     font-size: 0.9rem; } }
@@ -66,11 +66,11 @@ a {
   .page-header input[type="text"]:focus, .page-header input[type="text"]:hover {
     background-color: rgba(255, 255, 255, 0.6); }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 84em) {
   .page-header {
     padding: 5rem 6rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 84em) {
   .page-header {
     padding: 3rem 4rem; } }
 
@@ -82,11 +82,11 @@ a {
   margin-top: 0;
   margin-bottom: 0.1rem; }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 84em) {
   .project-name {
     font-size: 3.25rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 84em) {
   .project-name {
     font-size: 2.25rem; } }
 
@@ -99,11 +99,11 @@ a {
   font-weight: normal;
   opacity: 0.7; }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 84em) {
   .project-tagline {
     font-size: 1.25rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 84em) {
   .project-tagline {
     font-size: 1.15rem; } }
 
@@ -210,14 +210,14 @@ a {
   background-color: #eff0f1;
   border: 0; }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 84em) {
   .main-content {
-    max-width: 64rem;
+    max-width: 84rem;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 84em) {
   .main-content {
     padding: 2rem 4rem;
     font-size: 1.1rem; } }
@@ -239,11 +239,11 @@ a {
 .site-footer-credits {
   color: #819198; }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 84em) {
   .site-footer {
     font-size: 1rem; } }
 
-@media screen and (min-width: 42em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 84em) {
   .site-footer {
     font-size: 1rem; } }
 
