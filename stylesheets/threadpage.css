@@ -14,6 +14,7 @@ ol.threadpage {
 .messageUserInfo {
   float: left;
   background-color: #dce6f0;
+  width: 20rem;
   padding: 0.7rem; }
   .messageUserInfo h3 {
     font-size: 1em;
@@ -24,6 +25,8 @@ ol.threadpage {
       font-size: inherit;
       font-weight: inherit;
       font-style: inherit;
+      color: inherit;
+      cursor: default;
       display: block; }
     .messageUserInfo h3 > a {
       font-weight: bold; }
@@ -38,9 +41,10 @@ ol.threadpage {
       margin: 0 0 0 0.2em; }
 
 .messageInfo {
+  margin-left: 20rem;
   padding: 0.7rem; }
 
 .messageContent article > blockquote {
-  padding: 0 0 1rem;
+  padding: 0;
   color: inherit;
   border-left: none 0; }
