@@ -5,7 +5,7 @@ ol.threadpage {
 
 .message {
   margin: 0.7rem 0;
-  padding: 0.7rem 0;
+  padding: 0;
   list-style: none; }
   .message + .message {
     border-bottom: solid 0.3rem #dce6f0; }
@@ -13,7 +13,6 @@ ol.threadpage {
 .messageUserInfo {
   float: left;
   background-color: #dce6f0;
-  margin: -0.7rem 0.7rem -0.7rem 0;
   padding: 0.7rem; }
   .messageUserInfo h3 {
     font-size: 1em;
@@ -35,3 +34,6 @@ ol.threadpage {
     .messageUserInfo dd {
       display: inline-block;
       margin-left: 0.2em; }
+
+.messageInfo {
+  padding: 0.7rem; }
