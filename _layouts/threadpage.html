@@ -24,7 +24,8 @@
       <ol class="thread-posts">
         {{ content }}
       </ol>
-      <div>{% if page.pagenum > 1 %}<a href="pages/{{ page.pagenum | minus: 1 }}.html">&lt;- Previous Page</a>{% endif %} {% if page.pagenum > 1 and page.pagenum < site.pagecount %}|{% endif %} {% if page.pagenum < site.pagecount %}<a href="pages/{{ page.pagenum | plus: 1 }}.html">Next Page -&gt;</a>{% endif %}</div>
+      
+      <div class="page-links">{% if page.pagenum > 1 %}<a href="pages/{{ page.pagenum | minus: 1 }}.html">&lt;- Previous Page</a>{% endif %} {% if page.pagenum > 1 and page.pagenum < site.pagecount %}|{% endif %} {% if page.pagenum < site.pagecount %}<a href="pages/{{ page.pagenum | plus: 1 }}.html">Next Page -&gt;</a>{% endif %}</div>
 
       <footer class="site-footer">
         <span class="site-footer-credits">This page uses <a href="https://twitter.com/jasonlong">Jason Long</a>'s <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a>.</span>
