@@ -5,11 +5,11 @@ ol.threadpage {
 
 .message {
   margin: 0.7rem 0;
-  padding: 0;
+  padding: 0.7rem;
   overflow: hidden;
   list-style: none; }
   .message + .message {
-    border-bottom: solid 0.3rem #dce6f0; }
+    border-top: solid 0.3rem #dce6f0; }
     
 .messageUserInfo {
   float: left;
