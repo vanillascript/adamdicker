@@ -14,7 +14,7 @@ ol.threadpage {
 .messageUserInfo {
   float: left;
   background-color: #dce6f0;
-  width: 20rem;
+  width: 15rem;
   padding: 0.7rem; }
   .messageUserInfo h3 {
     font-size: 1em;
@@ -39,10 +39,18 @@ ol.threadpage {
     .messageUserInfo dd {
       display: inline-block;
       margin: 0 0 0 0.2em; }
+      
+@media screen and (max-width: 42em) {
+  .messageUserInfo {
+    float: none; } }
 
 .messageInfo {
-  margin-left: 20rem;
+  margin-left: 15rem;
   padding: 0.7rem; }
+  
+@media screen and (max-width: 42em) {
+  .messageInfo {
+    margin-left: 0; } }
 
 .messageContent article > blockquote {
   padding: 0;
